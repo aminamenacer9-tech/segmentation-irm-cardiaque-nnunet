@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Données médicales / volumineuses — à ne jamais committer
+*.nii
+*.nii.gz
+*.dcm
+data/
+raw/
+*.zip
